@@ -54,16 +54,15 @@ export default {
           filterValConv = filterVal;
         }
 
-        const empRecFiltered = empRecs.slice(0).filter((empRec) => {
+        const empRecFiltered = empRecs.slice(0).filter(empRec => {
 
           var currentRecVal = toString(empRec[colName]).toUpperCase();
           if (typeof (empRec[colName]) === "string") {
             currentRecVal = empRec[colName].toUpperCase();
           }
           else {
-            currentRecVal = empRec[colName];
+            currentRecVal = empRec[colName].toString();
           }
-
           if (currentRecVal === filterValConv) {
             return true;
           }

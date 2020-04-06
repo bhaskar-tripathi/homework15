@@ -33,7 +33,6 @@ function MainPage() {
     };
 
     function handleFilter(colName,filterVal) {
-        console.log(`Filter value is: ${filterVal}`);
         API.getEmpRecsFiltered(colName,filterVal)
         .then((response) => {
             setEmpRecsState(response.slice(0));
