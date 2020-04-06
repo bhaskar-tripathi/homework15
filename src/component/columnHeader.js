@@ -13,7 +13,6 @@ function ColumnHeader(props) {
         // if (!filterVal) {
         //   return;
         // }
-        console.log(`Filter value is: ${filterVal}`);
         handleFilter(props.column.colname,filterVal);
         // if (debouncedFilterTerm) {
         //   handleFilter(props.column.colname,filterVal);
