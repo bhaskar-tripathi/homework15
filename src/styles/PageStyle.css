@@ -1,0 +1,43 @@
+.fixedContainer {
+  position: "fixed";
+  height: "100%"
+}
+
+
+.iconStyle {
+  font-size: 3em;
+  color: #3295a8
+}
+
+.headerStyle {
+    font-size: 3em;
+    color: #3295a8 !important
+  }
+
+.navcust {
+    /* height: 12vh;
+    min-height: 12vh;
+    height: 10%;
+    min-height: 10%; */
+  }
+
+.tableFixHead { 
+  overflow-y: auto; 
+  height: 88vh; 
+}
+
+.tableFixHead thead th { 
+  position: sticky; 
+  top: 0; 
+}
+
+th { 
+  background:#eee; 
+}
+
+.disp-true{
+  display: initial;
+}
+.disp-false{
+  display: none;
+}
